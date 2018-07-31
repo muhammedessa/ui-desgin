@@ -1,0 +1,75 @@
+<ion-header  no-shadow no-border>
+  <ion-navbar>
+
+
+
+      <img   class="logouticon" (click)="imgClick()"   width="20"  src="../../assets/imgs/home/logout.svg" >
+
+   
+      <!-- <ion-buttons  >
+          <button ion-button icon-only (click)="openModal()">
+            <ion-icon name="ios-log-out"></ion-icon>
+          </button>
+        </ion-buttons> -->
+
+
+
+      <ion-buttons end>
+          <button ion-button icon-only (click)="openModal()">
+            <ion-icon name="ios-people"></ion-icon>
+          </button>
+        </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+    <div class="myDiv">
+    <img   width="100" class="headerImg" src="../../assets/imgs/home/header.svg" >
+  </div>
+    
+<div padding>
+    <ion-item >
+       
+        <ion-input  class="searchBtn" type="text" placeholder="Search"> </ion-input>
+
+      </ion-item>
+    </div>
+
+
+      <ion-grid class="mygrid" padding>
+          <ion-row>
+            <ion-col>
+ <img   width="300"  (click)="img1()"  src="../../assets/imgs/home/btn1.svg" >
+            </ion-col>
+            <ion-col>
+  <img   width="300"  (click)="img2()" src="../../assets/imgs/home/btn2.svg" >
+            </ion-col>
+          </ion-row>
+
+          <ion-row class="myrow">
+              <ion-col class="mycols">
+              <div class="myBTNs"   (click)="img3()" >
+                   
+                      <ion-icon class="largeIcon" name="leaf" item-start></ion-icon>
+                   <p class="myHeader">Lorem Ipsum   </p>     
+                      
+                    
+              </div> 
+              </ion-col>
+              <ion-col class="mycols1">
+                  <div class="myBTNs1"   (click)="img4()" >
+                       
+                          <ion-icon class="largeIcon" name="leaf" item-start></ion-icon>
+                       <p class="myHeader">Lorem Ipsum   </p>     
+                          
+                        
+                  </div> 
+                  </ion-col>
+            </ion-row>
+        </ion-grid>
+
+
+
+      
+ 
+</ion-content>

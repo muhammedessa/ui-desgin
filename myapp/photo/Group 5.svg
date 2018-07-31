@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 188 155">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1abc9c;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 20px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_10);
+      }
+    </style>
+    <filter id="Rectangle_10" x="0" y="0" width="188" height="155" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5" data-name="Group 5" transform="translate(-2 -301)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 2, 301)">
+      <rect id="Rectangle_10-2" data-name="Rectangle 10" class="cls-1" width="140" height="107" rx="6" transform="translate(24 21)"/>
+    </g>
+    <path id="ic_alarm_add_24px" class="cls-2" d="M9.4,3.785,7.788,1.86,2,6.7,3.623,8.63,9.4,3.785ZM27.167,6.717,21.379,1.86,19.755,3.785l5.788,4.857ZM14.584,4.553A11.325,11.325,0,1,0,25.909,15.878,11.326,11.326,0,0,0,14.584,4.553Zm0,20.134a8.808,8.808,0,1,1,8.808-8.808A8.8,8.8,0,0,1,14.584,24.687Zm1.258-13.842H13.325V14.62H9.55v2.517h3.775v3.775h2.517V17.136h3.775V14.62H15.842Z" transform="translate(37.772 331.784)"/>
+    <text id="Lorem_Ipsum" data-name="Lorem Ipsum" class="cls-3" transform="translate(38 397)"><tspan x="0" y="0">Lorem Ipsum</tspan></text>
+  </g>
+</svg>

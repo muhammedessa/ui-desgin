@@ -1,0 +1,135 @@
+page-home {
+
+.logouticon{
+    margin-left: 9px;
+}
+
+.headerImg{
+    position: relative;
+    left: 35%;
+    padding-bottom: 11%;
+}
+
+
+.toolbar-background-md {
+    border-color:  #00000008;
+    background:  #00000008;
+}
+
+
+
+.item-md {
+    border-radius: 13px;
+    border: solid 1px #70707040;
+    padding-left: 16px;
+    padding-right: 0;
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-transform: none;
+    color: #000;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: #a6bad33d 2px 3px 13px;
+    -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #2a80b9;
+    background-color: transparent;
+}
+
+ .searchBtn{
+     background-image: url('../../assets/imgs/home/search.svg');
+     background-repeat: no-repeat;
+     background-position: left;
+     background-size: 21px;  
+ }
+
+
+ ion-input {
+    padding-left: 22px;
+    position: static;
+}
+
+.col {
+    padding: 1px;
+ 
+}
+
+
+
+.mygrid{
+
+    padding-top: 35px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+
+.myrow{
+    padding-left: 18px;
+    padding-right: 55px;
+}
+
+
+.myBTNs{
+    
+    background: #8E44AD;
+    color: white;
+    margin: 1%;
+    border-radius: 6px;
+    -webkit-box-shadow: #a6bad33d 2px 3px 13px;
+    box-shadow: #a6bad37d 5px 6px 17px;
+}
+
+.largeIcon{
+    padding-top: 8%;
+    padding-left: 12px;
+    font-size: 25px;
+}
+
+.myHeader{
+    position: relative;
+    position: relative;
+    margin-top: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    padding-bottom: 22%;
+    padding-top: 6px;
+    
+}
+
+
+
+
+.mycols1{
+    // padding-left: 18px;
+    // padding-right: 55px;
+}
+
+
+.myBTNs1{
+    background: #FD79A8;
+    color: white;
+    position: relative;
+    left: 35px;
+    margin: 2px;
+    border-radius: 6px;
+    -webkit-box-shadow: #a6bad33d 2px 3px 13px;
+    box-shadow: #a6bad37d 5px 6px 17px;
+}
+
+
+
+.myDiv{
+    background:#00000008;
+    
+    margin-bottom: 31px;
+}
+
+}

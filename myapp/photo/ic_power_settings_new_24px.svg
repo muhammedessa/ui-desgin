@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2980b9;
+      }
+    </style>
+  </defs>
+  <path id="ic_power_settings_new_24px" class="cls-1" d="M13,3H11V13h2Zm4.83,2.17L16.41,6.59A6.92,6.92,0,0,1,19,12,7,7,0,1,1,7.58,6.58L6.17,5.17A8.992,8.992,0,1,0,21,12,8.932,8.932,0,0,0,17.83,5.17Z" transform="translate(-3 -3)"/>
+</svg>
